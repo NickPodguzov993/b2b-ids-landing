@@ -20,18 +20,6 @@ const About = () => {
                         className="w-[300px] h-[350px] left-0 top-[29.01px] absolute origin-top-left rotate-[-3.82deg] flex-col justify-center items-center inline-flex">
                         <img className="w-[300px] h-[350px] rounded-[20px]" src="https://via.placeholder.com/300x350"/>
                     </div>
-                    <div
-                        className="w-[300px] h-[350px] left-[297.84px] top-[30px] absolute origin-top-left rotate-[5.28deg] flex-col justify-center items-center inline-flex">
-                        <img className="w-[300px] h-[350px] rounded-[20px]" src="https://via.placeholder.com/300x350"/>
-                    </div>
-                    <div
-                        className="w-[300px] h-[350px] left-[564.32px] top-[-0.45px] absolute origin-top-left rotate-[1.76deg] flex-col justify-center items-center inline-flex">
-                        <img className="w-[300px] h-[350px] rounded-[20px]" src="https://via.placeholder.com/300x350"/>
-                    </div>
-                    <div
-                        className="w-[300px] h-[350px] left-[807px] top-[65.63px] absolute origin-top-left -rotate-6 flex-col justify-center items-center inline-flex">
-                        <img className="w-[300px] h-[350px] rounded-[20px]" src="https://via.placeholder.com/300x350"/>
-                    </div>
                 </div>
             </div>
             <div className="w-[360px] h-[540px] px-4 flex-col justify-start items-start gap-8 inline-flex">
