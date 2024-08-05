@@ -1,12 +1,68 @@
+import {useState} from "react";
 
 
 const MoreBenefits = () => {
+
+    const initialData = [
+        {
+            id: 1,
+            title:'Reliability',
+            title2:'Augue ex',
+            description:'Augue ex. Lacinia sed molestie libero, ultricies. Luctus dictum. Luctus mollis ornare velit molestie et efficitur nulla ex. Velit malesuad.',
+            img:'',
+        },
+        {
+            id: 2,
+            title:'Reliability',
+            title2:'Augue ex',
+            description:'Augue ex. Lacinia sed molestie libero, ultricies. Luctus dictum. Luctus mollis ornare velit molestie et efficitur nulla ex. Velit malesuad.',
+            img:'',
+        },
+        {
+            id: 3,
+            title:'Reliability',
+            title2:'Augue ex',
+            description:'Augue ex. Lacinia sed molestie libero, ultricies. Luctus dictum. Luctus mollis ornare velit molestie et efficitur nulla ex. Velit malesuad.',
+            img:'',
+        },
+        {
+            id: 4,
+            title:'Reliability',
+            title2:'Augue ex',
+            description:'Augue ex. Lacinia sed molestie libero, ultricies. Luctus dictum. Luctus mollis ornare velit molestie et efficitur nulla ex. Velit malesuad.',
+            img:'',
+        },
+
+    ]
+    const [cards, setCards] = useState(initialData);
+    const touchStart = (id: number) : void => {
+        const updatedData = cards.map(c => {
+            if (id === c.id) {
+                return { ...c, isHovered: true };
+            }
+            return c;
+        });
+
+        setCards(updatedData);
+    };
+
+    const touchEnd = (id: number): void => {
+        const updatedContent = cards.map(c => {
+            if (id === c.id) {
+                return { ...c, isHovered: false };
+            }
+            return c;
+        });
+
+        setCards(updatedContent);
+    };
+
     return (
         <div>
             <div className="w-[360px] h-[527px] px-4 flex-col justify-start items-start gap-8 inline-flex">
                 <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
                     <div className="#4cffa9">
-                        <div className="text-black text-sm font-normal font-['Arial'] leading-snug">More benefits</div>
+                        <div className="text-black text-sm font-normal font-['Arial'] leading-snug p-2 rounded-lg bg-[#4cffa9]">More benefits</div>
                     </div>
                     <div className="w-[324px] justify-center items-center gap-3.5 ">
                         <div
