@@ -1,16 +1,24 @@
+import table from '../../../../public/assets/MainPage/Mobile/tables.png'
 
 const Technologies = () => {
     return (
-        <div>
-            <div className=" flex-col justify-start items-start gap-4 inline-flex">
-                <div className="#4cffa9">
-                    <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Our technologies</div>
+        <div className=' '>
+            <div>
+                
+            </div>
+            <div className=" flex-col justify-center items-start gap-4 inline-flex">
+                <div className="bg-[url('/assets/MainPage/Mobile/half-round.svg')] bg-[top_-30px_right_-20px] bg-no-repeat w-[360px] h-[360px]">
+                    <img className='w-[360px] mt-[10px]' src={table}/>
                 </div>
-                <div className="self-stretch"><span
+                <div className="bg-[#4cffa9] p-2 ml-4  rounded-lg relative">
+                    <div className="text-black text-sm  font-normal  font-['Arial'] leading-snug ">Our technologies
+                    </div>
+                </div>
+                <div className="self-stretch pl-4"><span
                     className="text-black text-[32px] font-light font-['Oswald'] uppercase">technologies</span><span
                     className="text-black text-[32px] font-medium font-['Oswald'] uppercase"> used for development</span>
                 </div>
-                <div className="#1b1b1b">Our choice of technologies reflects our commitment to delivering top-tier
+                <div className=" pl-4 w-[340px]">Our choice of technologies reflects our commitment to delivering top-tier
                     solutions for businesses of all sizes
                 </div>
             </div>
