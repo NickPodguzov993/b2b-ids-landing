@@ -127,7 +127,7 @@ export default {
                 },
             },
             colors: {
-                light_blue: "#44699F",
+                main_green: "#4cffa9",
                 dark_blue: "#0E2146",
                 bg: "#D9E6F9"
             }

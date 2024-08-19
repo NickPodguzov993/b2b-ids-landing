@@ -1,4 +1,5 @@
 import table from '../../../../public/assets/MainPage/Mobile/tables.png'
+import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
 
 
 const Technologies = () => {
@@ -38,14 +39,14 @@ const Technologies = () => {
                     className="w-[169px]  h-[169px] absolute  left-[185px] bg-[url('/assets/MainPage/Mobile/Ellipse7.png')] bg-black z-10 rounded-full"/>
 
             </div>
-            <div className="w-[360px] h-[296px] flex-col justify-start items-start gap-8 inline-flex">
+            <div className="w-[360px] h-[296px] flex-col  justify-start items-start gap-8 inline-flex">
 
-                <div className=" w-full  justify-start items-start inline-flex flex-col overflow-y-hidden">
-                    <div className="flex flex-row h-[500px]   mt-[40px]">
+                <div className=" w-full  justify-start  items-start inline-flex flex-col overflow-y-hidden">
+                    <div className="flex flex-row  ml-4 mr-4  mt-[40px]">
                         <div
-                            className="w-[300px] h-[196px] origin-top-left  flex-col justify-center items-center inline-flex">
-                            <div className="#4cffa9">
-                                <div className="#4cffa9">
+                            className="w-[300px] h-[196px]  border-2 border-main_green pl-6 rounded-[20px]  origin-top-left  flex-col justify-center  inline-flex">
+                            <div className="">
+                                <div className="bg-[#4cffa9] rounded-lg p-1 mb-4 w-[70px]">
                                     <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Stack
                                         01
                                     </div>
@@ -63,18 +64,18 @@ const Technologies = () => {
                             </div>
                         </div>
                         <div
-                            className="w-[300px] h-[196px] origin-top-left  flex-col justify-center items-center inline-flex">
-                            <div className="#4cffa9">
-                                <div className="#4cffa9">
+                            className="w-[300px] h-[196px]  border-2 ml-4 border-main_green pl-6 rounded-[20px]  origin-top-left  flex-col justify-center  inline-flex">
+                            <div className="">
+                                <div className="bg-[#4cffa9] rounded-lg p-1 mb-4 w-[70px]">
                                     <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Stack
-                                        01
+                                        02
                                     </div>
                                 </div>
                                 <div
                                     className="self-stretch h-[67px] flex-col justify-start items-start gap-[9px] flex">
                                     <div
-                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Java
-                                        / Kotlin
+                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">PHP
+                                        Laravel
                                     </div>
                                     <div
                                         className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(back-end)
@@ -83,41 +84,62 @@ const Technologies = () => {
                             </div>
                         </div>
                         <div
-                            className="w-[300px] h-[196px] origin-top-left  flex-col justify-center items-center inline-flex">
-                            <div className="#4cffa9">
-                                <div className="#4cffa9">
+                            className="w-[300px] h-[196px]  border-2 ml-4 border-main_green pl-6 rounded-[20px]  origin-top-left  flex-col justify-center  inline-flex">
+                            <div className="">
+                                <div className="bg-[#4cffa9] rounded-lg p-1 mb-4 w-[70px]">
                                     <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Stack
-                                        01
+                                        03
                                     </div>
                                 </div>
                                 <div
                                     className="self-stretch h-[67px] flex-col justify-start items-start gap-[9px] flex">
                                     <div
-                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Java
-                                        / Kotlin
+                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Typescript
+                                        / React
                                     </div>
                                     <div
-                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(back-end)
+                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(front-end)
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div
-                            className="w-[300px] h-[196px] origin-top-left flex-col justify-center items-center inline-flex">
-                            <div className="#4cffa9">
-                                <div className="#4cffa9">
+                            className="w-[300px] h-[196px]  border-2 ml-4 border-main_green pl-6 rounded-[20px]  origin-top-left  flex-col justify-center  inline-flex">
+                            <div className="">
+                                <div className="bg-[#4cffa9] rounded-lg p-1 mb-4 w-[70px]">
                                     <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Stack
-                                        01
+                                        04
                                     </div>
                                 </div>
                                 <div
                                     className="self-stretch h-[67px] flex-col justify-start items-start gap-[9px] flex">
                                     <div
-                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Java
-                                        / Kotlin
+                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Grafana
+                                        Loki OSS
                                     </div>
                                     <div
-                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(back-end)
+                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(technical
+                                        monitoring)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="w-[300px] h-[196px]  border-2 ml-4 border-main_green pl-6 rounded-[20px]  origin-top-left  flex-col justify-center  inline-flex">
+                            <div className="">
+                                <div className="bg-[#4cffa9] rounded-lg p-1 mb-4 w-[70px]">
+                                    <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Stack
+                                        05
+                                    </div>
+                                </div>
+                                <div
+                                    className="self-stretch h-[67px] flex-col justify-start items-start gap-[9px] flex">
+                                    <div
+                                        className="self-stretch text-black text-2xl font-medium font-['Oswald'] uppercase">Typescript
+                                        / <br/> Playwright / Allure
+                                    </div>
+                                    <div
+                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">(test)
                                     </div>
                                 </div>
                             </div>
@@ -125,6 +147,16 @@ const Technologies = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex ml-[240px]'>
+                <div className=" bg-[#e8eaed] w-[44px] h-[44px] rounded-3xl">
+                    <div className='mt-[10px] ml-[9px]'><img src={arrow}/></div>
+
+                </div>
+                <div className=" bg-[#e8eaed] w-[44px] h-[44px] ml-[14px] rounded-3xl">
+                    <div className='mt-[9px] pl-[9px] rotate-180'><img src={arrow}/></div>
+                </div>
+            </div>
+
         </div>
     );
 };
