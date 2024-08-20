@@ -44,8 +44,18 @@ const Reviews = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
+                </div>
+            </div>
+            <div className='flex mt-8 ml-[240px]'>
+                <div className=" bg-[#e8eaed] w-[44px] h-[44px] rounded-3xl">
+                    <div className='mt-[10px] ml-[9px]'><img src={arrow}/></div>
+
+                </div>
+                <div className=" bg-[#e8eaed] w-[44px] h-[44px] ml-[14px] rounded-3xl">
+                    <div className='mt-[9px] pl-[9px] rotate-180'><img src={arrow}/></div>
                 </div>
             </div>
         </div>

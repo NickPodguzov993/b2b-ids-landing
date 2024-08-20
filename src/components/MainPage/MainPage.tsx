@@ -14,8 +14,7 @@ const MainPage = () => {
 
 
     return (
-        <div
-           >
+        <div>
             <About/>
             <MoreBenefits/>
             <Tools/>
