@@ -23,8 +23,10 @@ const MainPage = () => {
             <TrustUs/>
             <Reviews/>
             <PayOnly/>
-            <FAQ/>
-            <LetsTalk/>
+            <div className='bg-[#e8eaed]'>
+                <FAQ/>
+                <LetsTalk/>
+            </div>
         </div>
 
     );

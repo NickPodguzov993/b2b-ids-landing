@@ -1,7 +1,10 @@
+import BlueBlackTicker from "../../BlueBlackTicker.tsx";
 
 const Faq = () => {
     return (
         <div>
+            <BlueBlackTicker/>
+
             <div className="text-center text-black text-[64px] font-medium font-['Oswald'] uppercase">FaQ</div>
             <div className="#e8eaed">
                 <div className="w-[328px] justify-start items-center gap-2.5 inline-flex">

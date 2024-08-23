@@ -3,7 +3,7 @@
 
 const BlueBlackTicker = () => {
     return (
-        <div className=" bg-white py-8 w-[360px] mt-[120px]  rounded-[100px]">
+        <div className=" bg-white py-8 w-[360px] mt-[120px]  ">
             <div className="flex overflow-hidden">
                 <div className="flex gap-8 animate-marquee">
                     <div
