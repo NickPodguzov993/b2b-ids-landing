@@ -9,7 +9,7 @@ const About = () => {
 
     return (
         <div>
-            <div className="w-[360px] h-[701px] flex-col justify-start items-start gap-8 inline-flex">
+            <div className="hidden sm:w-[360px] sm:h-[701px] sm:flex-col sm:justify-start sm:items-start sm:gap-8 sm:inline-flex">
                 <div className="self-stretch h-[213px] px-4 flex-col justify-start items-start gap-4 flex">
                     <div className="bg-[#4cffa9] p-2 rounded-lg">
                         <div className="text-black text-sm font-normal font-['Arial'] leading-snugx ">About</div>

@@ -3,7 +3,7 @@ import BlueBlackTicker from "./BlueBlackTicker.tsx";
 
 const Header = () => {
     return (
-            <div className='w-full rounded-[30px]  z-10 '>
+            <div className='sm:hidden  sm:w-full sm:rounded-[30px]  sm:z-10 '>
 
                 <div className="w-[360px] h-[720px] relative bg-[url('/assets/Header/Mobile/studioItPhoto.png')] bg-no-repeat
                          bg-cover rounded-bl-[20px] rounded-br-[20px]">
