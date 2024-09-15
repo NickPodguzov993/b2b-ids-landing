@@ -60,74 +60,152 @@ const MoreBenefits = () => {
     };
 
     return (
-        <div className='w-[360px]'>
-            <div className="w-[360px] h-[527px] px-4 flex-col justify-start items-start gap-8 inline-flex">
-                <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
-                    <div className="#4cffa9">
-                        <div
-                            className="text-black text-sm font-normal font-['Arial'] leading-snug p-2 rounded-lg bg-[#4cffa9]">More
-                            benefits
-                        </div>
-                    </div>
-                    <div className="w-[324px] justify-center items-center gap-3.5 ">
-                        <div
-                            className="text-center text-black text-[32px] font-light font-['Oswald'] uppercase">Advantages
-                        </div>
-                        <div className="text-center text-black text-[32px] font-medium font-['Oswald'] uppercase">of
-                            working
-                            with us
-                        </div>
+        <div className='hidden sm:block'>
+            <div className="h-[238px] ml-[100px] mt-[2200px] flex-col justify-start items-center gap-8 inline-flex">
 
+                <div className="w-[1400px] h-[998px] px-8 flex-col justify-start items-start gap-8 inline-flex">
+                    <div className="self-stretch h-[238px] flex-col justify-start items-center gap-8 flex">
+                        <div
+                            className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
+                            <div className="text-black text-base font-normal font-['Arial']">More benefits</div>
+                        </div>
+                        <div className="justify-start items-center gap-3.5 inline-flex">
+                            <div
+                                className="text-center text-black text-[64px] font-light font-['Oswald'] uppercase">Advantages
+                            </div>
+                            <div className="text-center text-black text-[64px] font-medium font-['Oswald'] uppercase">of
+                                working with us
+                            </div>
+                        </div>
+                        <div className="w-[460px] text-center text-black text-xl font-normal font-['Arial']">At our
+                            company, we pride ourselves on delivering exceptional value through our core strength
+                        </div>
                     </div>
-                    <div className="#1b1b1b">At our company, we pride ourselves on delivering exceptional value through
-                        our
-                        core strength
+                    <div className="self-stretch h-[348px] justify-start items-center gap-6 inline-flex">
+                        <div className="h-[348px] flex-col justify-center items-center inline-flex">
+                            <img className="w-[316px] h-[348px] rounded-[20px]"
+                                 src="https://via.placeholder.com/316x348"/>
+                        </div>
+                        <div
+                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
+                            <div
+                                className="w-[267px] h-[267px] p-[44.50px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
+                            <div
+                                className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Reliability
+                            </div>
+                        </div>
+                        <div className="h-[348px] flex-col justify-center items-center inline-flex">
+                            <img className="w-[316px] h-[348px] rounded-[20px]"
+                                 src="https://via.placeholder.com/316x348"/>
+                        </div>
+                        <div
+                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
+                            <div
+                                className="w-[267px] h-[267px] pl-[33.37px] pr-[33.38px] py-[22.25px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
+                            <div className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Ease of
+                                Use
+                            </div>
+                        </div>
+                    </div>
+                    <div className="self-stretch h-[348px] justify-start items-center gap-6 inline-flex">
+                        <div
+                            className="w-[313px] self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
+                            <div
+                                className="w-[267px] h-[267px] p-[22.25px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
+                            <div className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Wide
+                                Applicability
+                            </div>
+                        </div>
+                        <div className="w-80 h-[348px] flex-col justify-center items-center inline-flex">
+                            <img className="w-80 h-[348px] rounded-[20px]" src="https://via.placeholder.com/320x348"/>
+                        </div>
+                        <div
+                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
+                            <div
+                                className="w-[267px] h-[267px] pl-[33.37px] pr-[33.38px] pt-[33.37px] pb-[33.38px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
+                            <div
+                                className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Client-Centric
+                                Approach
+                            </div>
+                        </div>
+                        <div className="h-[348px] flex-col justify-center items-center inline-flex">
+                            <img className="w-[315.50px] h-[348px] rounded-[20px]"
+                                 src="https://via.placeholder.com/315x348"/>
+                        </div>
                     </div>
                 </div>
-
             </div>
-            <div className="w-full  justify-start  items-start inline-flex  overflow-y-hidden">
-                {cards.map(c => (
-                    <div key={c.id} onTouchStart={() => touchStart(c.id)} onTouchEnd={() => touchEnd(c.id)}
-                         className={`w-[300px] h-[282px] p-[24px] bg-[#4cffa9] bg-[url(\`/assets/MainPage/Mobile/{c.img}\`)] bg-no-repeat
+
+
+             <div className='sm:hidden w-[360px]'>
+                <div className="w-[360px] h-[527px] px-4 flex-col justify-start items-start gap-8 inline-flex">
+                    <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
+                        <div className="#4cffa9">
+                            <div
+                                className="text-black text-sm font-normal font-['Arial'] leading-snug p-2 rounded-lg bg-[#4cffa9]">More
+                                benefits
+                            </div>
+                        </div>
+                        <div className="w-[324px] justify-center items-center gap-3.5 ">
+                            <div
+                                className="text-center text-black text-[32px] font-light font-['Oswald'] uppercase">Advantages
+                            </div>
+                            <div className="text-center text-black text-[32px] font-medium font-['Oswald'] uppercase">of
+                                working
+                                with us
+                            </div>
+
+                        </div>
+                        <div className="#1b1b1b">At our company, we pride ourselves on delivering exceptional value
+                            through
+                            our
+                            core strength
+                        </div>
+                    </div>
+
+                </div>
+                <div className="w-full  justify-start  items-start inline-flex  overflow-y-hidden">
+                    {cards.map(c => (
+                        <div key={c.id} onTouchStart={() => touchStart(c.id)} onTouchEnd={() => touchEnd(c.id)}
+                             className={`w-[300px] h-[282px] p-[24px] bg-[#4cffa9] bg-[url(\`/assets/MainPage/Mobile/{c.img}\`)] bg-no-repeat
                          bg-cover rounded-[20px] flex-col justify-between items-start ml-2 inline-flex`}>
-                        <div className="">
-                            <div className="w-[267px]  justify-center items-center inline-flex"/>
-                            <div className="self-stretch text-black text-xl font-normal font-['Arial'] mb-[30px]">{c.title}
-                            </div>
-                            <div className="self-stretch  flex-col justify-start items-start gap-5 flex">
-                                <div className="self-stretch text-black text-base font-normal font-['Arial']">{c.title2}
-                                </div>
+                            <div className="">
+                                <div className="w-[267px]  justify-center items-center inline-flex"/>
                                 <div
-                                    className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">{c.description}
+                                    className="self-stretch text-black text-xl font-normal font-['Arial'] mb-[30px]">{c.title}
+                                </div>
+                                <div className="self-stretch  flex-col justify-start items-start gap-5 flex">
+                                    <div
+                                        className="self-stretch text-black text-base font-normal font-['Arial']">{c.title2}
+                                    </div>
+                                    <div
+                                        className="self-stretch text-black text-sm font-normal font-['Arial'] leading-snug">{c.description}
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    ))}
+                </div>
+                <div className=" px-4 flex-col justify-start items-start gap-8 inline-flex">
+                    <div className="self-stretch"><span
+                        className="text-black text-[32px] font-medium font-['Oswald'] uppercase">Only registration</span><span
+                        className="text-black text-[32px] font-light font-['Oswald'] uppercase"> is nedeed</span></div>
+                    <div className="#4cffa9">
+                        <div className="text-black text-lg font-medium font-['Oswald'] uppercase">Let's go</div>
+                        <div className="w-8 h-8 relative"/>
                     </div>
-                ))}
-            </div>
-
-
-
-
-            <div className=" px-4 flex-col justify-start items-start gap-8 inline-flex">
-                <div className="self-stretch"><span
-                    className="text-black text-[32px] font-medium font-['Oswald'] uppercase">Only registration</span><span
-                    className="text-black text-[32px] font-light font-['Oswald'] uppercase"> is nedeed</span></div>
-                <div className="#4cffa9">
-                    <div className="text-black text-lg font-medium font-['Oswald'] uppercase">Let's go</div>
-                    <div className="w-8 h-8 relative"/>
-                </div>
-                <div className="w-[328px] h-[212.09px] relative">
-                    <img className="w-[328px] h-[212.09px] left-0 top-0 absolute"
-                         src={notebook}/>
-                    <div className="#f4f4f4"/>
-                </div>
-                <div>A ready-to-use online service, no special software installation actions are
-                    required from the user
+                    <div className="w-[328px] h-[212.09px] relative">
+                        <img className="w-[328px] h-[212.09px] left-0 top-0 absolute"
+                             src={notebook}/>
+                        <div className="#f4f4f4"/>
+                    </div>
+                    <div>A ready-to-use online service, no special software installation actions are
+                        required from the user
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 };
 

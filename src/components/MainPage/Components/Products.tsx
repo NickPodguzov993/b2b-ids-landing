@@ -2,7 +2,7 @@
 
 const Products = () => {
     return (
-        <div>
+        <div className='sm:hidden'>
             <div className="h-36 flex-col p-4  items-center  gap-4 mt-[120px] inline-flex">
                 <div className="bg-[#4cffa9] p-2 rounded-lg">
                     <div className="text-black text-sm font-normal font-['Arial']  leading-snug">About product</div>

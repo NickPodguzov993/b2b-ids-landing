@@ -3,7 +3,7 @@ import half from '../../../../public/assets/MainPage/Mobile/half.svg'
 
 const PayOnly = () => {
     return (
-        <div className='mt-[120px] '>
+        <div className='sm:hidden mt-[120px] '>
             <div className='p-4 bg-white'><span
                 className="text-black text-[32px] font-light font-['Oswald'] uppercase">Pay only for the</span><span
                 className="text-black text-[32px] font-medium font-['Oswald'] uppercase"> necessary functionality</span>

@@ -4,7 +4,7 @@ import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
 
 const Reviews = () => {
     return (
-        <div>
+        <div className='sm:hidden'>
             <div className=" flex-col justify-start items-center gap-4 inline-flex">
                 <div className="bg-[#4cffa9] p-2 rounded-lg">
                     <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Reviews</div>

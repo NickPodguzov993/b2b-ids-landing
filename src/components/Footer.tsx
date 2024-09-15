@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <div
-                className="w-[360px] h-[640px] px-4 py-8 bg-[#1b1b1b] rounded-tl-[20px] rounded-tr-[20px] flex-col justify-start items-start gap-8 inline-flex">
+                className="sm:hidden w-[360px] h-[640px] px-4 py-8 bg-[#1b1b1b] rounded-tl-[20px] rounded-tr-[20px] flex-col justify-start items-start gap-8 inline-flex">
                 <div className="w-[54.90px] h-12 relative"/>
                 <div className="self-stretch grow shrink basis-0 flex-col justify-start items-center gap-4 flex">
                     <div

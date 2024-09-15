@@ -4,7 +4,7 @@ import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
 
 const Technologies = () => {
     return (
-        <div className=' '>
+        <div className='sm:hidden'>
             <div>
 
             </div>

@@ -3,7 +3,7 @@
 const Tools = () => {
     return (
         <div
-            className="w-[360px] h-[600px] px-4 py-8 bg-black/40 rounded-[20px] bg-[url('/assets/MainPage/Mobile/banner.png')] bg-no-repeat
+            className="sm:hidden w-[360px] h-[600px] px-4 py-8 bg-black/40 rounded-[20px] bg-[url('/assets/MainPage/Mobile/banner.png')] bg-no-repeat
                           flex-col justify-between items-start inline-flex">
             <div className="bg-[#4cffa9] p-2 rounded-lg">
                 <div className="text-black text-sm font-normal font-['Arial'] leading-snug">Our tools</div>
