@@ -1,6 +1,7 @@
 import {useState} from "react";
 import  back1 from '../../../../public/assets/MainPage/Mobile/back1.svg'
 import  notebook from '../../../../public/assets/MainPage/Mobile/notebook.png'
+import  image1 from '../../../../public/assets/MainPage/Desctop/image1.png'
 
 
 const MoreBenefits = () => {
@@ -134,12 +135,24 @@ const MoreBenefits = () => {
                         </div>
                     </div>
                 </div>
+
+
+                <div className='ml-[-220px] mt-[160px] relative'>
+                    <span
+                        className="text-black  text-9xl font-medium font-['Oswald'] uppercase">Only registration</span>
+                    <span className="text-black text-9xl font-light font-['Oswald'] uppercase"> is <br/></span>
+                    <div className="text-black text-9xl mt-8  font-light font-['Oswald'] uppercase"> nedeed</div>
+                    <div className='absolute left-[220px] top-[190px]'><img src={image1}/></div>
+                    <div className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A ready-to-use
+                        online service, no special software installation actions are required from the user
+                    </div>
+                </div>
             </div>
 
 
-             <div className='sm:hidden w-[360px]'>
+            <div className='sm:hidden w-[360px]'>
                 <div className="w-[360px] h-[527px] px-4 flex-col justify-start items-start gap-8 inline-flex">
-                    <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
+                <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
                         <div className="#4cffa9">
                             <div
                                 className="text-black text-sm font-normal font-['Arial'] leading-snug p-2 rounded-lg bg-[#4cffa9]">More
