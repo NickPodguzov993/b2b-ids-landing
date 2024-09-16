@@ -27,6 +27,8 @@ const MainPage = () => {
                 <FAQ/>
                 <LetsTalk/>
             </div>
+            <FAQ/>
+            <LetsTalk/>
         </div>
 
     );

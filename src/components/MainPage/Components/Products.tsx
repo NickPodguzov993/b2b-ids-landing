@@ -33,7 +33,7 @@ const Products = () => {
                 </div>
 
                 <div
-                    className="h-[648px] ml-[70px] pl-8 py-16 bg-[#e8eaed] bg-[url('/assets/MainPage/Desctop/Group3.png')] bg-no-repeat  bg-[top_-65px_right_-50px]   rounded-[20px] justify-start items-center gap-6 inline-flex">
+                    className="h-[648px] w-[1400px] ml-[-40px] pl-8 py-16 bg-[#e8eaed] bg-[url('/assets/MainPage/Desctop/Group3.png')] bg-no-repeat  bg-[top_-65px_right_-50px]   rounded-[20px] justify-start items-center gap-6 inline-flex">
                     <div className="grow shrink basis-0 h-[520px] flex-col justify-between items-start inline-flex">
                         <div className="self-stretch h-[448px] flex-col justify-start items-start gap-6 flex">
                             <div className="self-stretch h-[165px] flex-col justify-start items-start gap-6 flex">
