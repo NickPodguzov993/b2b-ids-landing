@@ -1,6 +1,7 @@
 import table from '../../../../public/assets/MainPage/Mobile/tables.png'
 import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
 import ThreeRounds from '../../../../public/assets/MainPage/Desctop/ThreeRounds.png'
+import Techno from '../Components/Technologies.module.scss'
 
 
 const Technologies = () => {
@@ -34,12 +35,10 @@ const Technologies = () => {
                     </div>
                 </div>
                 <div className='flex gap-3 mt-16 ml-[132px]'>
-                    <div
-                        className="w-[300px] h-[203px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex">
-                        <div
-                            className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
-                            <div className="text-black text-base font-normal font-['Arial']">Stack 01</div>
-                        </div>
+                    <div className={Techno.section}>
+                        <p className={Techno.stack}>
+                            Stack 01
+                        </p>
                         <div className="self-stretch h-[74px] flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Java
@@ -49,13 +48,10 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div
-                        className="w-[300px] h-[203px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex">
-                        <div
-                            className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
-                            <div className="text-black text-base font-normal font-['Arial']">Stack 02</div>
-                        </div>
+                    <div className={Techno.section}>
+                        <p className={Techno.stack}>
+                            Stack 02
+                        </p>
                         <div className="self-stretch h-[74px] flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">PHP
@@ -65,6 +61,8 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
+
+
                     <div
                         className="w-[300px] h-[250px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex">
                         <div
@@ -97,9 +95,9 @@ const Technologies = () => {
                         </div>
                     </div>
                     <div
-                        className="w-[300px] h-[297px] p-8 bg-gradient-to-b from-white to-[#4cffa9] rounded-[20px] flex-col justify-start items-start gap-8 inline-flex">
+                        className="w-[300px] h-[297px] p-8 border border-[#4cffa9] rounded-[20px] flex-col justify-start items-start gap-8 inline-flex">
                         <div
-                            className="h-[33px] px-2.5 py-[5px] rounded-[10px] border border-black justify-center items-center gap-2.5 inline-flex">
+                            className="h-[33px] px-2.5 py-[5px] rounded-[10px] bg-[#4cffa9]  justify-center items-center gap-2.5 inline-flex">
                             <div className="text-black text-base font-normal font-['Arial']">Stack 06</div>
                         </div>
                         <div className="self-stretch h-[168px] flex-col justify-start items-start gap-[9px] flex">
@@ -121,8 +119,6 @@ const Technologies = () => {
                         <div className="w-6 h-6 relative"/>
                     </div>
                 </div>
-
-
 
 
             </div>

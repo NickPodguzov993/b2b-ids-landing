@@ -1,6 +1,7 @@
 import half from '../../../../public/assets/MainPage/Mobile/half.svg'
-//import Vector from '../../../../public/assets/MainPage/Desctop/Vector.svg'
-import ImagesSlider from "../../ImagesSlider.tsx";
+import Vector from '../../../../public/assets/MainPage/Desctop/Vector.svg'
+
+import AnimationPayOnly from '../Components/AnimationPayOnly.module.scss'
 
 const PayOnly = () => {
     return (
@@ -16,22 +17,85 @@ const PayOnly = () => {
                     </div>
                 </div>
 
-               {/* <div className='flex ml-[132px] mt-8 '>
+                <div className='flex ml-[132px] mt-8 '>
                     <div
-                        className="w-[445px] h-[480px] hover:bg-main_green  border-l border-[#e8eaed] flex-col justify-between items-start inline-flex">
-                        <div className="self-stretch h-[82px] px-2 flex-col justify-start items-start gap-3 flex">
-                            <div
-                                className="h-[33px] px-2.5 py-[5px] bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
-                                <div className="text-white text-base font-normal font-['Arial']">01</div>
-                            </div>
-                            <div className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost is
-                                based on needs
-                            </div>
-                            <div className='mt-[170px] hover:rotate-180 hover:mt-[0px]'><img src={Vector}/></div>
+                        className={AnimationPayOnly.animationPayOnly}>
+                        <div
+                            className="self-stretch h-[82px] px-2 flex-col justify-start items-start gap-3 flex relative">
+                            <p className=' duration-700'>
+                                <div
+                                    className="h-[33px] px-2.5 py-[5px] text-white text-base font-normal font-['Arial']
+                                 bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
+                                    01
+                                </div>
+                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost
+                                    is
+                                    based on needs
+                                </h3>
+                                <button
+                                    className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
+                                    <div className=" text-base font-normal font-['Arial']">Calculate the
+                                        cost
+                                    </div>
+                                    <div className="w-6 h-6 relative"/>
+                                </button>
+                            </p>
+
+                            <section className='mt-[170px] duration-700'><img src={Vector}/></section>
                         </div>
                     </div>
-                </div>*/}
-                <ImagesSlider/>
+
+
+                    <div
+                        className={AnimationPayOnly.animationPayOnly}>
+                        <div
+                            className="self-stretch h-[82px] px-2 flex-col justify-start items-start gap-3 flex relative">
+                            <p className=' duration-700'>
+                                <div
+                                    className="h-[33px] px-2.5 py-[5px] text-white text-base font-normal font-['Arial']
+                                 bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
+                                    02
+                                </div>
+                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost is based on usage duration
+                                </h3>
+                                <button
+                                    className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
+                                    <div className=" text-base font-normal font-['Arial']">Calculate the
+                                        cost
+                                    </div>
+                                    <div className="w-6 h-6 relative"/>
+                                </button>
+                            </p>
+
+                            <section className='mt-[125px] duration-700'><img src={Vector}/></section>
+                        </div>
+                    </div>
+                    <div
+                        className={AnimationPayOnly.animationPayOnly}>
+                        <div
+                            className="self-stretch h-[82px] px-2 flex-col justify-start items-start gap-3 flex relative">
+                            <p className=' duration-700'>
+                                <div
+                                    className="h-[33px] px-2.5 py-[5px] text-white text-base font-normal font-['Arial']
+                                 bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
+                                    03
+                                </div>
+                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost is based on required microservices
+                                </h3>
+                                <button
+                                    className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
+                                    <div className=" text-base font-normal font-['Arial']">Calculate the
+                                        cost
+                                    </div>
+                                    <div className="w-6 h-6 relative"/>
+                                </button>
+                            </p>
+
+                            <section className='mt-[125px] duration-700'><img src={Vector}/></section>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -61,7 +125,7 @@ const PayOnly = () => {
                                     <div className="bg-[#e8eaed] mt-[20px]  relative">
                                         <div
                                             className="self-stretch  px-2 flex-col justify-start items-start gap-3 flex">
-                                            <div
+                                        <div
                                                 className="h-[33px] px-2.5 py-[5px] bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
                                                 <div
                                                     className="text-white text-sm font-normal font-['Arial'] leading-snug">01

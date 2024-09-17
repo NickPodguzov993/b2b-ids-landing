@@ -1,0 +1,80 @@
+.block {
+  @apply grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28
+  inline-flex bg-[url('/assets/MainPage/Desctop/img1.svg')] bg-no-repeat bg-[top_0px_right_0px] relative
+}
+
+.block:hover {
+  @apply bg-main_green duration-700
+}
+
+.block:hover {
+  .title {
+    @apply top-[20px] duration-1000
+  }
+  .description {
+    @apply flex  h-[148px] absolute top-[230px] flex-col justify-start items-start gap-5 duration-700
+  }
+}
+
+.title {
+  @apply self-stretch text-[#1b1b1b] text-[32px] bg-transparent font-normal font-['Arial'] absolute top-[240px]
+}
+
+.description {
+  @apply hidden
+}
+
+.block2 {
+  @apply grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28
+  inline-flex bg-[url('/assets/MainPage/Desctop/img2.svg')] bg-no-repeat bg-[top_0px_right_0px] relative
+}
+
+.block2:hover {
+  @apply bg-main_green duration-700
+}
+
+.block2:hover {
+  .title {
+    @apply top-[20px] duration-1000
+  }
+  .description {
+    @apply flex  h-[148px] absolute top-[230px] flex-col justify-start items-start gap-5 duration-700
+  }
+}
+.block3 {
+  @apply grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28
+  inline-flex bg-[url('/assets/MainPage/Desctop/img3.svg')] bg-no-repeat bg-[top_0px_right_0px] relative
+}
+
+.block3:hover {
+  @apply bg-main_green duration-700
+}
+
+.block3:hover {
+  .title {
+    @apply top-[20px] duration-1000
+  }
+  .description {
+    @apply flex  h-[148px] absolute top-[200px] flex-col justify-start items-start gap-5 duration-700
+  }
+}
+.block4 {
+  @apply grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28
+  inline-flex bg-[url('/assets/MainPage/Desctop/img4.svg')] bg-no-repeat bg-[top_0px_right_0px] relative
+}
+
+.block4:hover {
+  @apply bg-main_green duration-700
+}
+
+.block4:hover {
+  .title {
+    @apply top-[20px] duration-1000
+  }
+  .description {
+    @apply flex  h-[148px] absolute top-[230px] flex-col justify-start items-start gap-5 duration-700
+  }
+}
+
+
+

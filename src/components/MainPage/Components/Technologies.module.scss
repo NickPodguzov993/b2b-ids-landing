@@ -1,0 +1,17 @@
+.section {
+  @apply w-[300px] h-[203px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex
+}
+
+.stack {
+  @apply h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex text-black text-base font-normal font-['Arial']
+}
+
+.block:hover {
+  @apply bg-gradient-to-b from-white to-[#4cffa9] duration-700
+}
+
+.block:hover {
+  .stack {
+    @apply bg-white border border-black duration-700
+  }
+}

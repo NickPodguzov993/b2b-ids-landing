@@ -2,6 +2,11 @@ import {useState} from "react";
 import  back1 from '../../../../public/assets/MainPage/Mobile/back1.svg'
 import  notebook from '../../../../public/assets/MainPage/Mobile/notebook.png'
 import  image1 from '../../../../public/assets/MainPage/Desctop/image1.png'
+import  Rectangle1 from '../../../../public/assets/MainPage/Desctop/Rectangle1.png'
+import  Rectangle2 from '../../../../public/assets/MainPage/Desctop/Rectangle2.png'
+import  Rectangle3 from '../../../../public/assets/MainPage/Desctop/Rectangle3.png'
+import  Rectangle4 from '../../../../public/assets/MainPage/Desctop/Rectangle4.png'
+import style from '../Components/MoreBenefits.module.scss'
 
 
 const MoreBenefits = () => {
@@ -85,53 +90,75 @@ const MoreBenefits = () => {
                     <div className="self-stretch h-[348px] justify-start items-center gap-6 inline-flex">
                         <div className="h-[348px] flex-col justify-center items-center inline-flex">
                             <img className="w-[316px] h-[348px] rounded-[20px]"
-                                 src="https://via.placeholder.com/316x348"/>
+                                 src={Rectangle1}/>
                         </div>
+
                         <div
-                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
-                            <div
-                                className="w-[267px] h-[267px] p-[44.50px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
-                            <div
-                                className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Reliability
+                            className={style.block}>
+                            <p
+                                className={style.title}>Reliability
+                            </p>
+                            <div className={style.description}>
+                                <div className="text-black text-base font-normal font-['Arial']">Reliability
+                                </div>
+                                <div className="text-black text-sm font-normal font-['Arial'] leading-snug"
+                                >We pay great attention to product security
+                                </div>
                             </div>
                         </div>
                         <div className="h-[348px] flex-col justify-center items-center inline-flex">
                             <img className="w-[316px] h-[348px] rounded-[20px]"
-                                 src="https://via.placeholder.com/316x348"/>
+                                 src={Rectangle2}/>
                         </div>
                         <div
-                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
-                            <div
-                                className="w-[267px] h-[267px] pl-[33.37px] pr-[33.38px] py-[22.25px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
-                            <div className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Ease of
-                                Use
+                            className={style.block2}>
+                            <p
+                                className={style.title}>Ease of Use
+                            </p>
+                            <div className={style.description}>
+                                <div className="text-black text-base font-normal font-['Arial']">Ease of Use
+                                </div>
+                                <div className="text-black text-sm font-normal font-['Arial'] leading-snug"
+                                >User-friendly interface
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="self-stretch h-[348px] justify-start items-center gap-6 inline-flex">
                         <div
-                            className="w-[313px] self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
-                            <div
-                                className="w-[267px] h-[267px] p-[22.25px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
-                            <div className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Wide
-                                Applicability
-                            </div>
-                        </div>
-                        <div className="w-80 h-[348px] flex-col justify-center items-center inline-flex">
-                            <img className="w-80 h-[348px] rounded-[20px]" src="https://via.placeholder.com/320x348"/>
-                        </div>
-                        <div
-                            className="grow shrink basis-0 self-stretch p-6 rounded-[20px] border border-[#4cffa9] flex-col justify-end items-start gap-28 inline-flex">
-                            <div
-                                className="w-[267px] h-[267px] pl-[33.37px] pr-[33.38px] pt-[33.37px] pb-[33.38px] origin-top-left rotate-[-10.37deg] justify-center items-center inline-flex"/>
-                            <div
-                                className="self-stretch text-[#1b1b1b] text-[32px] font-normal font-['Arial']">Client-Centric
-                                Approach
+                            className={style.block3}>
+                            <p
+                                className={style.title}>Wide Applicability
+                            </p>
+                            <div className={style.description}>
+                                <div className="text-black text-base font-normal font-['Arial']">Wide Applicability
+                                </div>
+                                <div className="text-black text-sm font-normal font-['Arial'] leading-snug"
+                                >Can be used by commercial organizations <br/> and individual entrepreneurs as a
+                                    technical solution for interacting with payment systems
+                                </div>
                             </div>
                         </div>
                         <div className="h-[348px] flex-col justify-center items-center inline-flex">
-                            <img className="w-[315.50px] h-[348px] rounded-[20px]"
-                                 src="https://via.placeholder.com/315x348"/>
+                            <img className="w-[316px] h-[348px] rounded-[20px]"
+                                 src={Rectangle3}/>
+                        </div>
+                        <div
+                            className={style.block4}>
+                            <p
+                                className={style.title}>Client-Centric Approach
+                            </p>
+                            <div className={style.description}>
+                                <div className="text-black text-base font-normal font-['Arial']">Client-Centric Approach
+                                </div>
+                                <div className="text-black text-sm font-normal font-['Arial'] leading-snug"
+                                >We guarantee the sustainability of <br/> our clients' business operations
+                                </div>
+                            </div>
+                        </div>
+                        <div className="h-[348px] flex-col justify-center items-center inline-flex">
+                            <img className="w-[316px] h-[348px] rounded-[20px]"
+                                 src={Rectangle4}/>
                         </div>
                     </div>
                 </div>
@@ -143,7 +170,8 @@ const MoreBenefits = () => {
                     <span className="text-black text-9xl font-light font-['Oswald'] uppercase"> is <br/></span>
                     <div className="text-black text-9xl mt-8  font-light font-['Oswald'] uppercase"> nedeed</div>
                     <div className='absolute left-[220px] top-[190px]'><img src={image1}/></div>
-                    <div className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A ready-to-use
+                    <div
+                        className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A ready-to-use
                         online service, no special software installation actions are required from the user
                     </div>
                 </div>

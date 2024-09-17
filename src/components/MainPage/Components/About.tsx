@@ -54,27 +54,27 @@ const About = () => {
                     <div className="h-[500px] relative bg-white">
                         <div
                             className="w-[360px] h-[400px] rounded-[20px] bg-[url('/assets/MainPage/Desctop/Card1Default.png')]
-                            hover:bg-[url('/assets/MainPage/Desctop/Card1Hover.png')]
+                            hover:bg-[url('/assets/MainPage/Desctop/Card1Hover.png')] hover:duration-700 duration-700
                              left-0 top-[49.01px] absolute origin-top-left rotate-[-3.82deg] flex-col justify-center items-center inline-flex">
                         </div>
                         <div
                             className="w-[360px] h-[400px] left-[346.84px] rounded-[20px]
                             bg-[url('/assets/MainPage/Desctop/card2Default.png')]
-                            hover:bg-[url('/assets/MainPage/Desctop/card2Hover.png')]
+                            hover:bg-[url('/assets/MainPage/Desctop/card2Hover.png')] hover:duration-700 duration-700
                              top-[50px] absolute origin-top-left rotate-[5.28deg] flex-col justify-center items-center inline-flex">
 
                         </div>
                         <div
                             className="w-[360px] h-[400px] left-[657.24px]
                             bg-[url('/assets/MainPage/Desctop/Card3Default.png')]
-                            hover:bg-[url('/assets/MainPage/Desctop/Card3Hover.png')]
+                            hover:bg-[url('/assets/MainPage/Desctop/Card3Hover.png')] hover:duration-700 duration-700
                             top-[19.55px] absolute origin-top-left rotate-[1.76deg] flex-col justify-center items-center inline-flex">
 
                         </div>
                         <div
                             className="w-[360px] h-[400px] left-[936.10px]
                              bg-[url('/assets/MainPage/Desctop/Card4Default.png')]
-                            hover:bg-[url('/assets/MainPage/Desctop/Card4Hover.png')]
+                            hover:bg-[url('/assets/MainPage/Desctop/Card4Hover.png')] hover:duration-700 duration-700
                              top-[85.63px] absolute origin-top-left -rotate-6 flex-col justify-center items-center inline-flex">
                         </div>
                     </div>

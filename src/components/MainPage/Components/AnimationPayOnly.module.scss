@@ -1,0 +1,19 @@
+.animationPayOnly {
+  @apply w-[445px] h-[480px]   border-l border-[#e8eaed] flex-col justify-between items-start inline-flex
+
+}
+
+.animationPayOnly:hover {
+  section {
+    @apply rotate-180 duration-700 mt-[0px]
+  }
+
+  p {
+    @apply mt-[300px] duration-700 absolute
+  }
+
+  button {
+    @apply block   duration-700
+  }
+}
+
