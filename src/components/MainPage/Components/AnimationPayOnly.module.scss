@@ -3,9 +3,14 @@
 
 }
 
+.vector {
+  @apply top-[263px] duration-700 absolute
+}
+
 .animationPayOnly:hover {
-  section {
-    @apply rotate-180 duration-700 mt-[0px]
+
+  .vector {
+    @apply rotate-180  duration-700 top-[0px]
   }
 
   p {

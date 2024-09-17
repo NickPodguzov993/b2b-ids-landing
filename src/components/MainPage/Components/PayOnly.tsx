@@ -41,7 +41,7 @@ const PayOnly = () => {
                                 </button>
                             </p>
 
-                            <section className='mt-[170px] duration-700'><img src={Vector}/></section>
+                            <section className={AnimationPayOnly.vector}><img src={Vector}/></section>
                         </div>
                     </div>
 
@@ -56,7 +56,8 @@ const PayOnly = () => {
                                  bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
                                     02
                                 </div>
-                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost is based on usage duration
+                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost
+                                    is based on usage duration
                                 </h3>
                                 <button
                                     className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
@@ -67,7 +68,7 @@ const PayOnly = () => {
                                 </button>
                             </p>
 
-                            <section className='mt-[125px] duration-700'><img src={Vector}/></section>
+                            <section className={AnimationPayOnly.vector}><img src={Vector}/></section>
                         </div>
                     </div>
                     <div
@@ -80,7 +81,8 @@ const PayOnly = () => {
                                  bg-black rounded-[10px] justify-center items-center gap-2.5 inline-flex">
                                     03
                                 </div>
-                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost is based on required microservices
+                                <h3 className="self-stretch text-black text-[32px] font-normal font-['Arial']">The cost
+                                    is based on required microservices
                                 </h3>
                                 <button
                                     className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
@@ -91,7 +93,7 @@ const PayOnly = () => {
                                 </button>
                             </p>
 
-                            <section className='mt-[125px] duration-700'><img src={Vector}/></section>
+                            <section className={AnimationPayOnly.vector}><img src={Vector}/></section>
                         </div>
                     </div>
 
