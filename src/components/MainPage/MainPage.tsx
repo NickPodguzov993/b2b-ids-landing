@@ -29,6 +29,7 @@ const MainPage = () => {
             </div>
             <FAQ/>
             <LetsTalk/>
+
         </div>
 
     );

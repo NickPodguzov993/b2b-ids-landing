@@ -1,0 +1,21 @@
+body {
+
+}
+
+.block {
+
+}
+
+.block span {
+
+
+    background: linear-gradient(to right,#e8eaed  50%, #000000 50%) 0 0 / 160% 80%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+}
+
+.basic {
+    color: #4cffa9;
+}

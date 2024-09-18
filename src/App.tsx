@@ -6,6 +6,8 @@ import Contacts from "./components/Contacts.tsx";
 import Policies from "./components/Policies.tsx";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
+
+
 function App() {
     return (
 
@@ -19,6 +21,8 @@ function App() {
                     <Route path='/policies' element={<Policies/>}/>
                 </Routes>
                 <Footer/>
+
+
             </div>
         </Wrapper>
     )

@@ -5,16 +5,32 @@ import card4 from '../../../../public/assets/MainPage/Mobile/Card4Mobile.png'
 import tallArrow from '../../../../public/assets/MainPage/Desctop/tallArrow.svg'
 import Arrow3 from '../../../../public/assets/MainPage/Desctop/Arrow3.svg'
 import BlueBlackTicker from "../../BlueBlackTicker.tsx";
+import {useEffect, useState} from "react";
+import '../../ScrollText.css';
 
 
 const About = () => {
+    const [backgroundPosition, setBackgroundPosition] = useState('-10%');
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const t = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+            setBackgroundPosition(`${-t * 720}%`);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Очистка обработчика при размонтировании компонента
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
 
         <div>
             <div
-                className="hidden sm:block sm:w-[1600px] sm:h-[860px] sm:bg-black/40 sm:bg-[url('/assets/MainPage/Desctop/studioItPhoto.png')]
+                className="hidden sm:block sm:w-[1600px] sm:h-[860px]  sm:bg-black/40 sm:bg-[url('/assets/MainPage/Desctop/studioItPhoto.png')]
                  sm:bg-cover rounded-bl-[40px] sm:rounded-br-[40px]
                  sm:relative">
                 <div
@@ -46,7 +62,8 @@ const About = () => {
                     <div className="self-stretch justify-between items-end inline-flex">
                         <div className="w-[712px]"><span
                             className="text-black text-[64px] font-medium font-['Oswald'] uppercase">Automate your business </span><span
-                            className="text-black text-[64px] font-light font-['Oswald'] uppercase">with us</span></div>
+                            className="text-black text-[64px] font-light font-['Oswald'] uppercase">with us</span>
+                        </div>
                         <div className="w-[460px] text-[#1b1b1b] text-xl font-normal font-['Arial']">Automate the
                             processes of integrating and managing payment systems and their methods
                         </div>
@@ -79,17 +96,28 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[1400px] ml-[132px]'><span className="text-black text-9xl font-light font-['Oswald'] uppercase leading-[160px]">
-                    No special qualifications are required to use the software.</span><span
-                    className="text-black text-9xl font-semibold font-['Oswald'] uppercase leading-[160px]"> </span>
-                    <span
-                    className="text-white text-9xl pl-4 pr-4 font-semibold font-['Oswald'] bg-main_green rounded-2xl uppercase leading-[160px]">Basic skills </span><span
-                    className="text-black text-9xl font-light font-['Oswald'] uppercase leading-[160px]"> in working with <br/> a PC and a web browser </span><span
-                    className="text-[#4cffa9] text-9xl font-semibold font-['Oswald'] uppercase leading-[160px]">are sufficient</span><span
-                    className="text-[#4cffa9] text-9xl font-light font-['Oswald'] uppercase leading-[160px]">.</span></div>
-                <div className='flex pl-[132px] mt-8'>
-                    <div ><img src={Arrow3}/></div>
-                    <div className="text-center text-[#1b1b1b] text-[32px] font-light mt-[-20px] ml-8 font-['Oswald'] uppercase">osuna
+                <div className='block'>
+                    <div className='w-[1400px] ml-[142px] sm:mt-[260px] relative'><span style={{backgroundPosition}}
+
+                                                                          className="text-black text-9xl font-light font-['Oswald'] uppercase leading-[160px]">
+
+                  No special qualifications
+                        are required to use the
+                        software.
+
+                            in working with  a PC and<br/> a web browser  </span>
+                    </div>
+                </div>
+                <p
+                    className="absolute top-[2663px] left-[590px] text-white bg-main_green pl-2 pr-2  rounded-2xl text-9xl font-semibold font-['Oswald'] uppercase leading-[160px]">Basic
+                    skills </p>
+                <span  className="absolute top-[2823px] left-[960px] text-main_green  pl-2 pr-2  rounded-2xl text-9xl font-semibold font-['Oswald'] uppercase leading-[160px]">are </span>
+                <span  className="absolute top-[2985px] left-[130px] text-main_green  pl-2 pr-2  rounded-2xl text-9xl font-semibold font-['Oswald'] uppercase leading-[160px]"> sufficient</span>
+
+                <div className='flex pl-[132px] mt-[190px]'>
+                    <div><img src={Arrow3}/></div>
+                    <div
+                        className="text-center text-[#1b1b1b] text-[32px] font-light mt-[-20px] ml-8 font-['Oswald'] uppercase">osuna
                     </div>
                 </div>
             </div>
@@ -134,13 +162,16 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-[360px] h-[540px] px-4 flex-col justify-start items-start gap-8 inline-flex">
-                    <div className="self-stretch"><span
-                        className="text-black text-[40px] font-light font-['Oswald'] uppercase">No special qualifications are required to use the software.</span><span
-                        className="text-black text-[40px] font-semibold font-['Oswald'] uppercase"> </span><span
-                        className="text-white bg-[#4cffa9] text-[40px] font-semibold font-['Oswald'] uppercase">Basic skills </span><span
-                        className="text-[40px] text-black  font-light font-['Oswald'] uppercase"> in working with a PC and a web browser </span><span
-                        className=" font-semibold text-[40px] text-[#4cffa9] font-['Oswald'] uppercase">are sufficient</span><span
-                        className="#4cffa940px] font-light font-['Oswald'] uppercase">.</span></div>
+                    <div className="block">
+                        <div className="self-stretch"><span
+                            className="text-black text-[40px] font-light font-['Oswald'] uppercase">No special qualifications are required to use the software.</span><span
+                            className="text-black text-[40px] font-semibold font-['Oswald'] uppercase"> </span><span
+                            className="text-white bg-[#4cffa9] text-[40px] font-semibold font-['Oswald'] uppercase">Basic skills </span><span
+                            className="text-[40px] text-black  font-light font-['Oswald'] uppercase"> in working with a PC and a web browser </span><span
+                            className=" font-semibold text-[40px] text-[#4cffa9] font-['Oswald'] uppercase">are sufficient</span><span
+                            className="#4cffa940px] font-light font-['Oswald'] uppercase">.</span></div>
+                    </div>
+
 
                     <div>
                         <div className="#1b1b1b">osuna</div>

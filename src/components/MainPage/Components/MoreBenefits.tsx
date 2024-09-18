@@ -67,7 +67,7 @@ const MoreBenefits = () => {
 
     return (
         <div className='hidden sm:block'>
-            <div className="h-[238px] ml-[100px] mt-[2200px] flex-col justify-start items-center gap-8 inline-flex">
+            <div className="h-[238px] ml-[100px] mt-[2500px] flex-col justify-start items-center gap-8 inline-flex">
 
                 <div className="w-[1400px] h-[998px] px-8 flex-col justify-start items-start gap-8 inline-flex">
                     <div className="self-stretch h-[238px] flex-col justify-start items-center gap-8 flex">
