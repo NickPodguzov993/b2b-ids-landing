@@ -33,7 +33,8 @@ const PayOnly = () => {
                                     based on needs
                                 </h3>
                                 <button
-                                    className="h-12 px-8 py-4 hover:text-black text-white bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
+                                    className="h-12 px-8 py-4 hover:text-black text-white
+                                     bg-black hover:bg-main_green  @apply hidden rounded-[20px] justify-center items-center gap-2.5 inline-flex">
                                     <div className=" text-base font-normal font-['Arial']">Calculate the
                                         cost
                                     </div>

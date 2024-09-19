@@ -19,16 +19,16 @@ const Products = () => {
                 <div
                     className="h-16 p-2 ml-[350px] mb-8 rounded-[20px] border border-[#e8eaed] justify-start items-center gap-2 inline-flex">
                     <div className="px-8 py-4 bg-[#4cffa9] rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <div className="text-black text-base font-normal font-['Arial']">Billing</div>
+                        <button className="text-black text-base font-normal font-['Arial']">Billing</button>
                     </div>
                     <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <div className="text-[#7e7e7e] text-base font-normal font-['Arial']">Basic</div>
+                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Basic</button>
                     </div>
                     <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <div className="text-[#7e7e7e] text-base font-normal font-['Arial']">Localizer</div>
+                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Localizer</button>
                     </div>
                     <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <div className="text-[#7e7e7e] text-base font-normal font-['Arial']">Access Management</div>
+                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Access Management</button>
                     </div>
                 </div>
 

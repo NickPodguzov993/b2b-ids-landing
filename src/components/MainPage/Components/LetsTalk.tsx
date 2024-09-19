@@ -1,11 +1,13 @@
 import letsTalk from '../../../../public/assets/MainPage/Desctop/letsTalk.svg'
+import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
 
 const LetsTalk = () => {
     return (
-        <div>
-            <div className="w-[328px] h-[68.56px] sm:w-[1400px] sm:h-[292px] sm:ml-[132px] sm:mt-[160px] sm:mb-[160px] relative">
+        <div className='relative'>
+            <div className="w-[328px] h-[68.56px] sm:w-[1400px] sm:h-[292px] sm:ml-[132px] sm:mt-[160px] sm:mb-[160px] ">
                 <img src={letsTalk}/>
             </div>
+            <div ><img className='w-[400px] h-[400px] top-[-60px] left-[640px]  rotate-[180deg] absolute' src={arrow}/></div>
         </div>
     );
 };

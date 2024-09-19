@@ -2,6 +2,7 @@ import {useState} from "react";
 import  back1 from '../../../../public/assets/MainPage/Mobile/back1.svg'
 import  notebook from '../../../../public/assets/MainPage/Mobile/notebook.png'
 import  image1 from '../../../../public/assets/MainPage/Desctop/image1.png'
+import  arrowBlack from '../../../../public/assets/MainPage/Desctop/arrowBlack.svg'
 import  Rectangle1 from '../../../../public/assets/MainPage/Desctop/Rectangle1.png'
 import  Rectangle2 from '../../../../public/assets/MainPage/Desctop/Rectangle2.png'
 import  Rectangle3 from '../../../../public/assets/MainPage/Desctop/Rectangle3.png'
@@ -171,7 +172,15 @@ const MoreBenefits = () => {
                     <div className="text-black text-9xl mt-8  font-light font-['Oswald'] uppercase"> nedeed</div>
                     <div className='absolute left-[220px] top-[190px]'><img src={image1}/></div>
                     <div
-                        className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A ready-to-use
+                        className="w-[196px] h-[78px] absolute left-[780px] top-[150px] px-4 bg-[#4cffa9]
+                         text-black text-2xl font-medium font-['Oswald']
+                           uppercase rounded-[20px] justify-center items-center gap-2 inline-flex">
+                        <div >Let's go</div>
+                        <div ><img src={arrowBlack}/></div>
+                    </div>
+                    <div
+                        className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A
+                        ready-to-use
                         online service, no special software installation actions are required from the user
                     </div>
                 </div>
@@ -180,7 +189,7 @@ const MoreBenefits = () => {
 
             <div className='sm:hidden w-[360px]'>
                 <div className="w-[360px] h-[527px] px-4 flex-col justify-start items-start gap-8 inline-flex">
-                <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
+                    <div className="self-stretch h-[213px] flex-col justify-start items-center gap-4 flex">
                         <div className="#4cffa9">
                             <div
                                 className="text-black text-sm font-normal font-['Arial'] leading-snug p-2 rounded-lg bg-[#4cffa9]">More

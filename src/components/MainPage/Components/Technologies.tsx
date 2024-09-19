@@ -34,12 +34,20 @@ const Technologies = () => {
                         technology stack
                     </div>
                 </div>
-                <div className='flex gap-3 mt-16 ml-[132px]'>
-                    <div className={Techno.section}>
+                <div className="fc gap-8 justify-start items-start w-full">
+
+
+                    <div
+                        className="fc sm:flex-row-reverse sm:justify-between sm:w-full px-4 gap-4 justify-start items-start">
+                    </div>
+
+                </div>
+                <div className='flex gap-3 mt-16 ml-[132px] mb-[160px]'>
+                    <div className={Techno.sections}>
                         <p className={Techno.stack}>
                             Stack 01
                         </p>
-                        <div className="self-stretch h-[74px] flex-col justify-start items-start gap-[9px] flex">
+                        <div className="self-stretch  flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Java
                                 / Kotlin
@@ -48,7 +56,7 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={Techno.section}>
+                    <div className={Techno.sections}>
                         <p className={Techno.stack}>
                             Stack 02
                         </p>
@@ -63,12 +71,10 @@ const Technologies = () => {
                     </div>
 
 
-                    <div
-                        className="w-[300px] h-[250px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex">
-                        <div
-                            className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
-                            <div className="text-black text-base font-normal font-['Arial']">Stack 04</div>
-                        </div>
+                    <div className={Techno.sections}>
+                        <p className={Techno.stack}>
+                            Stack 03
+                        </p>
                         <div className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
@@ -78,12 +84,10 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
-                    <div
-                        className="w-[300px] h-[250px] p-8 bg-white rounded-[20px] border border-[#4cffa9] flex-col justify-start items-start gap-8 inline-flex">
-                        <div
-                            className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
-                            <div className="text-black text-base font-normal font-['Arial']">Stack 05</div>
-                        </div>
+                    <div className={Techno.sections}>
+                        <p className={Techno.stack}>
+                            Stack 04
+                        </p>
                         <div className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Grafana
@@ -94,12 +98,10 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
-                    <div
-                        className="w-[300px] h-[297px] p-8 border border-[#4cffa9] rounded-[20px] flex-col justify-start items-start gap-8 inline-flex">
-                        <div
-                            className="h-[33px] px-2.5 py-[5px] rounded-[10px] bg-[#4cffa9]  justify-center items-center gap-2.5 inline-flex">
-                            <div className="text-black text-base font-normal font-['Arial']">Stack 06</div>
-                        </div>
+                   {/* <div className={Techno.sections}>
+                        <p className={Techno.stack}>
+                            Stack 05
+                        </p>
                         <div className="self-stretch h-[168px] flex-col justify-start items-start gap-[9px] flex">
                             <div
                                 className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
@@ -107,20 +109,8 @@ const Technologies = () => {
                             </div>
                             <div className="self-stretch text-black text-base font-normal font-['Arial']">(test)</div>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
-                <div className='flex relative'>
-                    <div
-                        className="h-11 p-2.5 origin-top-left -rotate-180 bg-[#e8eaed] mt-[84px] ml-[1430px] rounded-[20px] justify-start items-center gap-2.5 inline-flex relative">
-                        <div className="w-6 h-6 relative"/>
-                    </div>
-                    <div
-                        className="h-11 p-2.5 origin-top-left -rotate-180 bg-[#e8eaed] mt-[84px] ml-[1502px] rounded-[20px] justify-start items-center gap-2.5 inline-flex absolute">
-                        <div className="w-6 h-6 relative"/>
-                    </div>
-                </div>
-
-
             </div>
 
 

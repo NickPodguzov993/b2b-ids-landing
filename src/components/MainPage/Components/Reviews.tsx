@@ -1,4 +1,6 @@
 import arrow from '../../../../public/assets/MainPage/Mobile/arrow.svg'
+import photo from '../../../../public/assets/MainPage/Desctop/photo.png'
+import style from '../Components/Reviews.module.scss'
 
 
 
@@ -17,18 +19,20 @@ const Reviews = () => {
                         talk about us
                     </div>
                 </div>
-                <div className='flex gap-4 ml-[132px]'>
-                    <div
-                        className="w-[460px] h-[347px] p-6 bg-[#4cffa9] rounded-[20px] flex-col justify-start items-start gap-8 inline-flex">
-                        <div className="w-9 h-9 relative origin-top-left -rotate-90"/>
-                        <div className="self-stretch text-black text-xl font-normal font-['Arial']">Thanks to the
+                <div className='flex gap-4 w-full ml-[132px]'>
+
+                    <div className={style.block}>
+                        <div className={style.arrow}>
+                            <img src={arrow}/>
+                        </div>
+                        <div className="w-[147px] h-[147px] relative"/>
+                        <div className={style.description}>Thanks to the
                             software, we easily integrated the payment system into our new product. Now, we can monitor
                             the status and manage the company's payment accounts with just a few clicks. Tracking
                             transactions has also become much easier.
                         </div>
-                        <div className="w-[147px] h-[147px] relative"/>
-                        <div className="w-44 h-[61px] justify-start items-center gap-3.5 inline-flex">
-                            <img className="w-[60px] h-[60px] rounded-full" src="https://via.placeholder.com/60x60"/>
+                        <div className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                            <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
                             <div
                                 className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
                                 <div className="self-stretch text-black text-lg font-bold font-['Arial']">Saton</div>
@@ -38,12 +42,18 @@ const Reviews = () => {
                             </div>
                         </div>
                     </div>
-                    <div
-                        className="w-[460px] h-[200px] p-6 bg-white rounded-[20px] border border-[#d9d9d9] flex-col justify-between items-start inline-flex">
-                        <div className="w-9 h-9 relative origin-top-left rotate-90"/>
+                    <div className={style.block}>
+                        <div className={style.arrow}>
+                            <img src={arrow}/>
+                        </div>
                         <div className="w-[147px] h-[147px] relative"/>
-                        <div className="w-44 h-[61px] justify-start items-center gap-3.5 inline-flex">
-                            <img className="w-[60px] h-[60px] rounded-full" src="https://via.placeholder.com/60x60"/>
+                        <div className={style.description}>Thanks to the
+                            software, we easily integrated the payment system into our new product. Now, we can monitor
+                            the status and manage the company's payment accounts with just a few clicks. Tracking
+                            transactions has also become much easier.
+                        </div>
+                        <div className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                            <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
                             <div
                                 className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
                                 <div className="self-stretch text-black text-lg font-bold font-['Arial']">Saton</div>
@@ -53,18 +63,10 @@ const Reviews = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div className='flex relative'>
-                    <div
-                        className="h-11 p-2.5 origin-top-left -rotate-180 bg-[#e8eaed] mt-[84px] ml-[1430px] rounded-[20px] justify-start items-center gap-2.5 inline-flex relative">
-                        <div className="w-6 h-6 relative"/>
-                    </div>
-                    <div
-                        className="h-11 p-2.5 origin-top-left -rotate-180 bg-[#e8eaed] mt-[84px] ml-[1502px] rounded-[20px] justify-start items-center gap-2.5 inline-flex absolute">
-                        <div className="w-6 h-6 relative"/>
-                    </div>
-                </div>
+
             </div>
 
 

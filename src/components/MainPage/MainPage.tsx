@@ -25,7 +25,6 @@ const MainPage = () => {
             <PayOnly/>
             <div className=' sm:hidden bg-[#e8eaed]'>
                 <FAQ/>
-                <LetsTalk/>
             </div>
             <FAQ/>
             <LetsTalk/>
