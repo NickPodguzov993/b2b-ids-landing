@@ -4,10 +4,15 @@ import ThreeRounds from '../../../../public/assets/MainPage/Desctop/ThreeRounds.
 import Techno from '../Components/Technologies.module.scss'
 
 
+
 const Technologies = () => {
     return (
         <div>
+
+
+
             <div className='hidden sm:block'>
+
                 <div className="h-[237px] mt-[160px] pl-[132px] justify-between items-end inline-flex">
                     <div className="flex-col justify-end items-start gap-3.5 inline-flex">
                         <div
@@ -42,6 +47,12 @@ const Technologies = () => {
                     </div>
 
                 </div>
+
+                <div className=" fc flex gap-3 mt-16  mb-[160px]  justify-start items-start w-[1400px]">
+                    <div className=" w-full  justify-start items-start inline-flex flex-col overflow-y-hidden sm:overflow-y-scroll">
+
+                        <div className='hidden sm:flex'>
+
                 <div className='flex gap-3 mt-16 ml-[132px] mb-[160px]'>
                     <div className={Techno.sections}>
                         <p className={Techno.stack}>
@@ -98,7 +109,7 @@ const Technologies = () => {
                             </div>
                         </div>
                     </div>
-                   {/* <div className={Techno.sections}>
+                    <div className={Techno.sections}>
                         <p className={Techno.stack}>
                             Stack 05
                         </p>
@@ -109,8 +120,9 @@ const Technologies = () => {
                             </div>
                             <div className="self-stretch text-black text-base font-normal font-['Arial']">(test)</div>
                         </div>
-                    </div>*/}
-                </div>
+                    </div>
+
+                </div> </div> </div> </div>
             </div>
 
 
