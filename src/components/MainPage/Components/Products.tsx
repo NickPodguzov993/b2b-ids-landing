@@ -10,7 +10,7 @@ const Products = () => {
 
     return (
         <div>
-            <div className='hidden sm:block ml-[132px]'>
+            <div className='hidden sm:block ml-[190px]'>
                 <div
                     className="h-[237px] flex-col mt-[160px] ml-[330px] justify-start items-center gap-3.5 inline-flex">
                     <div

@@ -4,7 +4,7 @@ const Tools = () => {
     return (
 
         <div>
-            <div className='hidden sm:block mt-[1900px] ml-[100px]'>
+            <div className='hidden sm:block mt-[1900px] ml-[154px]'>
                 <div
                     className="h-[600px] w-[1400px]
                            p-8  bg-[url('/assets/MainPage/Desctop/banner.png')] bg-cover rounded-[20px] flex-col justify-between items-start inline-flex">

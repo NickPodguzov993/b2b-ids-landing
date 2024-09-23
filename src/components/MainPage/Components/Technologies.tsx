@@ -4,16 +4,14 @@ import ThreeRounds from '../../../../public/assets/MainPage/Desctop/ThreeRounds.
 import Techno from '../Components/Technologies.module.scss'
 
 
-
 const Technologies = () => {
     return (
         <div>
 
 
-
             <div className='hidden sm:block'>
 
-                <div className="h-[237px] mt-[160px] pl-[132px] justify-between items-end inline-flex">
+                <div className="h-[237px] mt-[160px] pl-[182px] justify-between items-end inline-flex">
                     <div className="flex-col justify-end items-start gap-3.5 inline-flex">
                         <div
                             className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
@@ -30,7 +28,7 @@ const Technologies = () => {
                     </div>
                 </div>
 
-                <div className="h-[502px] relative ml-[132px] mt-16 justify-start items-center inline-flex">
+                <div className="h-[502px] relative ml-[182px] mt-16 justify-start items-center inline-flex">
                     <div>
                         <img src={ThreeRounds}/>
                     </div>
@@ -48,81 +46,93 @@ const Technologies = () => {
 
                 </div>
 
-                <div className=" fc flex gap-3 mt-16  mb-[160px]  justify-start items-start w-[1400px]">
+                <div className=" fc flex gap-3 mt-16  mb-[160px]  justify-start items-start w-[1600px]">
                     <div className=" w-full  justify-start items-start inline-flex flex-col overflow-y-hidden sm:overflow-y-scroll">
-
                         <div className='hidden sm:flex'>
 
-                <div className='flex gap-3 mt-16 ml-[132px] mb-[160px]'>
-                    <div className={Techno.sections}>
-                        <p className={Techno.stack}>
-                            Stack 01
-                        </p>
-                        <div className="self-stretch  flex-col justify-start items-start gap-[9px] flex">
-                            <div
-                                className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Java
-                                / Kotlin
-                            </div>
-                            <div className="self-stretch text-black text-base font-normal font-['Arial']">(back-end)
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Techno.sections}>
-                        <p className={Techno.stack}>
-                            Stack 02
-                        </p>
-                        <div className="self-stretch h-[74px] flex-col justify-start items-start gap-[9px] flex">
-                            <div
-                                className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">PHP
-                                Laravel
-                            </div>
-                            <div className="self-stretch text-black text-base font-normal font-['Arial']">(back-end)
-                            </div>
-                        </div>
-                    </div>
+                            <div className='flex gap-3 mt-16 ml-[132px] mb-[160px]'>
+                                <div className={Techno.sections}>
+                                    <p className={Techno.stack}>
+                                        Stack 01
+                                    </p>
+                                    <div className="self-stretch  flex-col justify-start items-start gap-[9px] flex">
+                                        <div
+                                            className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Java
+                                            / Kotlin
+                                        </div>
+                                        <div
+                                            className="self-stretch text-black text-base font-normal font-['Arial']">(back-end)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={Techno.sections}>
+                                    <p className={Techno.stack}>
+                                        Stack 02
+                                    </p>
+                                    <div
+                                        className="self-stretch h-[74px] flex-col justify-start items-start gap-[9px] flex">
+                                        <div
+                                            className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">PHP
+                                            Laravel
+                                        </div>
+                                        <div
+                                            className="self-stretch text-black text-base font-normal font-['Arial']">(back-end)
+                                        </div>
+                                    </div>
+                                </div>
 
 
-                    <div className={Techno.sections}>
-                        <p className={Techno.stack}>
-                            Stack 03
-                        </p>
-                        <div className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
-                            <div
-                                className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
-                                / React
-                            </div>
-                            <div className="self-stretch text-black text-base font-normal font-['Arial']">(front-end)
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Techno.sections}>
-                        <p className={Techno.stack}>
-                            Stack 04
-                        </p>
-                        <div className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
-                            <div
-                                className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Grafana
-                                Loki OSS
-                            </div>
-                            <div className="self-stretch text-black text-base font-normal font-['Arial']">(technical
-                                monitoring)
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Techno.sections}>
-                        <p className={Techno.stack}>
-                            Stack 05
-                        </p>
-                        <div className="self-stretch h-[168px] flex-col justify-start items-start gap-[9px] flex">
-                            <div
-                                className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
-                                / Playwright / Allure
-                            </div>
-                            <div className="self-stretch text-black text-base font-normal font-['Arial']">(test)</div>
-                        </div>
-                    </div>
+                                <div className={Techno.sections}>
+                                    <p className={Techno.stack}>
+                                        Stack 03
+                                    </p>
+                                    <div
+                                        className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
+                                        <div
+                                            className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
+                                            / React
+                                        </div>
+                                        <div
+                                            className="self-stretch text-black text-base font-normal font-['Arial']">(front-end)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={Techno.sections}>
+                                    <p className={Techno.stack}>
+                                        Stack 04
+                                    </p>
+                                    <div
+                                        className="self-stretch h-[121px] flex-col justify-start items-start gap-[9px] flex">
+                                        <div
+                                            className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Grafana
+                                            Loki OSS
+                                        </div>
+                                        <div
+                                            className="self-stretch text-black text-base font-normal font-['Arial']">(technical
+                                            monitoring)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={Techno.sections}>
+                                    <p className={Techno.stack}>
+                                        Stack 05
+                                    </p>
+                                    <div
+                                        className="self-stretch h-[168px] flex-col justify-start items-start gap-[9px] flex">
+                                        <div
+                                            className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Typescript
+                                            / Playwright / Allure
+                                        </div>
+                                        <div
+                                            className="self-stretch text-black text-base font-normal font-['Arial']">(test)
+                                        </div>
+                                    </div>
+                                </div>
 
-                </div> </div> </div> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 

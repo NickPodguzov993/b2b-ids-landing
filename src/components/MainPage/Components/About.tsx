@@ -30,7 +30,7 @@ const About = () => {
 
         <div>
             <div
-                className="hidden sm:block sm:w-[1600px] sm:h-[860px]  sm:bg-black/40 sm:bg-[url('/assets/MainPage/Desctop/studioItPhoto.png')]
+                className="hidden sm:block sm:w-[1600px] sm:h-[860px] ml-[34px]  sm:bg-black/40 sm:bg-[url('/assets/MainPage/Desctop/studioItPhoto.png')]
                  sm:bg-cover rounded-bl-[40px] sm:rounded-br-[40px]
                  sm:relative">
                 <div

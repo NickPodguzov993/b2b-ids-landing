@@ -68,7 +68,7 @@ const MoreBenefits = () => {
 
     return (
         <div className='hidden sm:block'>
-            <div className="h-[238px] ml-[100px] mt-[2500px] flex-col justify-start items-center gap-8 inline-flex">
+            <div className="h-[238px] ml-[132px] mt-[2500px] flex-col justify-start items-center gap-8 inline-flex">
 
                 <div className="w-[1400px] h-[998px] px-8 flex-col justify-start items-start gap-8 inline-flex">
                     <div className="self-stretch h-[238px] flex-col justify-start items-center gap-8 flex">
@@ -165,7 +165,7 @@ const MoreBenefits = () => {
                 </div>
 
 
-                <div className='ml-[-220px] mt-[160px] relative'>
+                <div className='ml-[-34px] mt-[160px] relative'>
                     <span
                         className="text-black  text-9xl font-medium font-['Oswald'] uppercase">Only registration</span>
                     <span className="text-black text-9xl font-light font-['Oswald'] uppercase"> is <br/></span>

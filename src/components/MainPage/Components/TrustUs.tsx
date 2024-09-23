@@ -5,7 +5,7 @@ import google from "../../../../public/assets/MainPage/Mobile/google.png";
 const TrustUs = () => {
     return (
         <div>
-            <div className=" w-[360px] sm:w-[1400px] sm:h-[220px] sm:ml-[132px] bg-[url('/assets/MainPage/Desctop/ourPartners.svg')] bg-no-repeat  px-4 flex-col justify-start items-center gap-8 inline-flex">
+            <div className=" w-[360px] sm:w-[1400px] sm:h-[220px] sm:ml-[162px] bg-[url('/assets/MainPage/Desctop/ourPartners.svg')] bg-no-repeat  px-4 flex-col justify-start items-center gap-8 inline-flex">
                 <div className="flex-col justify-center items-center gap-3.5 flex">
                     <div className="bg-[#4cffa9] p-2 rounded-lg  ">
                         <div className="text-black text-sm font-normal font-['Arial'] leading-snug">They trust us</div>

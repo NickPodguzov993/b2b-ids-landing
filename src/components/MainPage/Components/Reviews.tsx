@@ -9,7 +9,7 @@ const Reviews = () => {
         <div>
             <div className='hidden sm:block '>
                 <div
-                    className="h-[237px] ml-[305px] mt-[160px] flex-col justify-start items-center gap-3.5 inline-flex">
+                    className="h-[237px] ml-[335px] mt-[160px] flex-col justify-start items-center gap-3.5 inline-flex">
                     <div
                         className="h-[33px] px-2.5 py-[5px] bg-[#4cffa9] rounded-[10px] justify-center items-center gap-2.5 inline-flex">
                         <div className="text-black text-base font-normal font-['Arial']">Reviews</div>
@@ -19,51 +19,124 @@ const Reviews = () => {
                         talk about us
                     </div>
                 </div>
-                <div className='flex gap-4 w-full ml-[132px]'>
+                <div className=" fc flex gap-4  ml-[132px] mb-[160px] w-[1600px]">
+                    <div className=" w-full  justify-start items-start inline-flex flex-col overflow-y-hidden sm:overflow-y-scroll">
+                        <div className='hidden sm:flex'>
+                            <div className='flex gap-4  '>
 
-                    <div className={style.block}>
-                        <div className={style.arrow}>
-                            <img src={arrow}/>
-                        </div>
-                        <div className="w-[147px] h-[147px] relative"/>
-                        <div className={style.description}>Thanks to the
-                            software, we easily integrated the payment system into our new product. Now, we can monitor
-                            the status and manage the company's payment accounts with just a few clicks. Tracking
-                            transactions has also become much easier.
-                        </div>
-                        <div className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
-                            <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
-                            <div
-                                className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
-                                <div className="self-stretch text-black text-lg font-bold font-['Arial']">Saton</div>
-                                <div className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
-                                    StarDev
+                                <div className={style.block}>
+                                    <div className={style.arrow}>
+                                        <img src={arrow}/>
+                                    </div>
+                                    <div className="w-[147px] h-[147px] relative"/>
+                                    <div className={style.description}>Thanks to the
+                                        software, we easily integrated the payment system into our new product. Now, we
+                                        can monitor
+                                        the status and manage the company's payment accounts with just a few clicks.
+                                        Tracking
+                                        transactions has also become much easier.
+                                    </div>
+                                    <div
+                                        className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                                        <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
+                                        <div
+                                            className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
+                                            <div
+                                                className="self-stretch text-black text-lg font-bold font-['Arial']">Saton
+                                            </div>
+                                            <div
+                                                className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
+                                                StarDev
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div className={style.block}>
+                                    <div className={style.arrow}>
+                                        <img src={arrow}/>
+                                    </div>
+                                    <div className="w-[147px] h-[147px] relative"/>
+                                    <div className={style.description}>Thanks to the
+                                        software, we easily integrated the payment system into our new product. Now, we
+                                        can monitor
+                                        the status and manage the company's payment accounts with just a few clicks.
+                                        Tracking
+                                        transactions has also become much easier.
+                                    </div>
+                                    <div
+                                        className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                                        <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
+                                        <div
+                                            className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
+                                            <div
+                                                className="self-stretch text-black text-lg font-bold font-['Arial']">Saton
+                                            </div>
+                                            <div
+                                                className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
+                                                StarDev
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={style.block}>
+                                    <div className={style.arrow}>
+                                        <img src={arrow}/>
+                                    </div>
+                                    <div className="w-[147px] h-[147px] relative"/>
+                                    <div className={style.description}>Thanks to the
+                                        software, we easily integrated the payment system into our new product. Now, we
+                                        can monitor
+                                        the status and manage the company's payment accounts with just a few clicks.
+                                        Tracking
+                                        transactions has also become much easier.
+                                    </div>
+                                    <div
+                                        className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                                        <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
+                                        <div
+                                            className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
+                                            <div
+                                                className="self-stretch text-black text-lg font-bold font-['Arial']">Saton
+                                            </div>
+                                            <div
+                                                className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
+                                                StarDev
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={style.block}>
+                                    <div className={style.arrow}>
+                                        <img src={arrow}/>
+                                    </div>
+                                    <div className="w-[147px] h-[147px] relative"/>
+                                    <div className={style.description}>Thanks to the
+                                        software, we easily integrated the payment system into our new product. Now, we
+                                        can monitor
+                                        the status and manage the company's payment accounts with just a few clicks.
+                                        Tracking
+                                        transactions has also become much easier.
+                                    </div>
+                                    <div
+                                        className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
+                                        <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
+                                        <div
+                                            className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
+                                            <div
+                                                className="self-stretch text-black text-lg font-bold font-['Arial']">Saton
+                                            </div>
+                                            <div
+                                                className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
+                                                StarDev
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
-                    <div className={style.block}>
-                        <div className={style.arrow}>
-                            <img src={arrow}/>
-                        </div>
-                        <div className="w-[147px] h-[147px] relative"/>
-                        <div className={style.description}>Thanks to the
-                            software, we easily integrated the payment system into our new product. Now, we can monitor
-                            the status and manage the company's payment accounts with just a few clicks. Tracking
-                            transactions has also become much easier.
-                        </div>
-                        <div className="w-44 h-[61px] justify-start duration-700 items-center gap-3.5 inline-flex">
-                            <img className="w-[60px] h-[60px] rounded-full " src={photo}/>
-                            <div
-                                className="grow shrink basis-0 self-stretch flex-col justify-center items-start gap-2.5 inline-flex">
-                                <div className="self-stretch text-black text-lg font-bold font-['Arial']">Saton</div>
-                                <div className="self-stretch text-black text-base font-normal font-['Arial']">CEO,
-                                    StarDev
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
 
