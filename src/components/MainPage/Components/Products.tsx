@@ -1,12 +1,11 @@
-import {useState} from "react";
+
+import OurBonuses from "./OurBonuses.tsx";
+
 
 
 const Products = () => {
 
-    const [open, setOpen] = useState(false)
-    const [open2, setOpen2] = useState(false)
-    const [open3, setOpen3] = useState(false)
-    const [open4, setOpen4] = useState(false)
+
 
     return (
         <div>
@@ -23,81 +22,18 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div
-                    className="h-16 p-2 ml-[350px] mb-8 rounded-[20px] border border-[#e8eaed] justify-start items-center gap-2 inline-flex">
-                    <div className="px-8 py-4 bg-[#4cffa9] rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <button className="text-black text-base font-normal font-['Arial']" onClick={()=>setOpen(true)}>Billing</button>
-                    </div>
-                    <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Basic</button>
-                    </div>
-                    <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Localizer</button>
-                    </div>
-                    <div className="px-8 py-4 rounded-[20px] justify-center items-center gap-2.5 flex">
-                        <button className="text-[#7e7e7e] text-base font-normal font-['Arial']">Access Management</button>
-                    </div>
-                </div>
+
+
+
 
                 <div
-                    className="h-[648px] w-[1400px] ml-[-40px] pl-8 py-16 bg-[#e8eaed] bg-[url('/assets/MainPage/Desctop/Group3.png')] bg-no-repeat  bg-[top_-65px_right_-50px]
+                    className="h-[648px] w-[1400px] mt-[150px] ml-[-40px] pl-8 py-16 bg-[#e8eaed] bg-[url('/assets/MainPage/Desctop/Group3.png')] bg-no-repeat  bg-[top_-65px_right_-50px]
                        rounded-[20px] justify-start items-center gap-6 inline-flex">
-                    <div className="grow shrink basis-0 h-[520px] flex-col justify-between items-start inline-flex">
-                        {!open ? <span></span> :
-                            <div className="self-stretch h-[448px] flex-col justify-start items-start gap-6 flex">
-                                <div className="self-stretch h-[165px] flex-col justify-start items-start gap-6 flex">
-                                    <div className="self-stretch"><span
-                                        className="text-black text-[64px] font-medium font-['Oswald'] uppercase">Billing </span><span
-                                        className="text-black text-[64px] font-light font-['Oswald'] uppercase">module</span>
-                                    </div>
-                                    <div className="w-[460px] text-black text-xl font-normal font-['Arial']">The Billing
-                                        module is the primary tool for managing the financial aspects of your products
-                                    </div>
-                                </div>
-                                <div
-                                    className="self-stretch text-black text-[32px] font-medium font-['Oswald'] uppercase">Billing
-                                    allows you to:
-                                </div>
-                                <div className="self-stretch h-[122px] flex-col justify-start items-start gap-2.5 flex">
-                                    <div className="self-stretch justify-start items-start gap-2 inline-flex">
-                                        <div className="justify-center items-center gap-2.5 flex">
-                                            <div className="w-4 h-4 relative rounded-[20px] border-4 border-[#7e7e7e]"/>
-                                        </div>
-                                        <div
-                                            className="grow shrink basis-0 text-black text-xl font-normal font-['Arial']">Access
-                                            a list of available payment methods
-                                        </div>
-                                    </div>
-                                    <div className="self-stretch justify-start items-start gap-2 inline-flex">
-                                        <div className="justify-center items-center gap-2.5 flex">
-                                            <div className="w-4 h-4 relative rounded-[20px] border-4 border-[#7e7e7e]"/>
-                                        </div>
-                                        <div
-                                            className="grow shrink basis-0 text-[#1b1b1b] text-xl font-normal font-['Arial']">Choose
-                                            a convenient payment system and currency
-                                        </div>
-                                    </div>
-                                    <div className="self-stretch justify-start items-start gap-2 inline-flex">
-                                        <div className="justify-center items-center gap-2.5 flex">
-                                            <div className="w-4 h-4 relative rounded-[20px] border-4 border-[#7e7e7e]"/>
-                                        </div>
-                                        <div
-                                            className="grow shrink basis-0 text-black text-xl font-normal font-['Arial']">Create
-                                            a transaction for funding and withdrawing funds
-                                        </div>
-                                    </div>
-                                    <div className="self-stretch justify-start items-start gap-2 inline-flex">
-                                        <div className="justify-center items-center gap-2.5 flex">
-                                            <div className="w-4 h-4 relative rounded-[20px] border-4 border-[#7e7e7e]"/>
-                                        </div>
-                                        <div
-                                            className="grow shrink basis-0 text-black text-xl font-normal font-['Arial']">Choose
-                                            a convenient payment system and currency
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>}
+                    <div className="grow shrink basis-0 h-[520px] flex-col justify-between items-start inline-flex relative">
 
+
+
+                        <OurBonuses/>
 
                         <div
                             className="h-12 px-8 py-4 bg-black rounded-[20px] justify-center items-center gap-2.5 inline-flex">

@@ -8,9 +8,12 @@ import  Rectangle2 from '../../../../public/assets/MainPage/Desctop/Rectangle2.p
 import  Rectangle3 from '../../../../public/assets/MainPage/Desctop/Rectangle3.png'
 import  Rectangle4 from '../../../../public/assets/MainPage/Desctop/Rectangle4.png'
 import style from '../Components/MoreBenefits.module.scss'
+import SendForm from "./SendForm.tsx";
 
 
 const MoreBenefits = () => {
+
+    const [open, setOpen] = useState(false)
 
     const initialData = [
         {
@@ -171,13 +174,17 @@ const MoreBenefits = () => {
                     <span className="text-black text-9xl font-light font-['Oswald'] uppercase"> is <br/></span>
                     <div className="text-black text-9xl mt-8  font-light font-['Oswald'] uppercase"> nedeed</div>
                     <div className='absolute left-[220px] top-[190px]'><img src={image1}/></div>
-                    <div
+                    <div onClick={()=>setOpen(!open)}
                         className="w-[196px] h-[78px] absolute left-[780px] top-[150px] px-4 bg-[#4cffa9]
                          text-black text-2xl font-medium font-['Oswald']
                            uppercase rounded-[20px] justify-center items-center gap-2 inline-flex">
                         <div >Let's go</div>
                         <div ><img src={arrowBlack}/></div>
                     </div>
+                    <div className='absolute top-[1px] right-[-200px]'>
+                        {open ? <SendForm/> : <div></div>}
+                    </div>
+
                     <div
                         className="w-[460px] text-[#1b1b1b] absolute text-[32px] top-[570px] left-[870px] font-normal font-['Arial']">A
                         ready-to-use
