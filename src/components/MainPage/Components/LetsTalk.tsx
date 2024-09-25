@@ -7,7 +7,7 @@ const LetsTalk = () => {
             <div className="w-[328px] h-[68.56px] sm:w-[1400px] sm:h-[292px] sm:ml-[132px] sm:mt-[160px] sm:mb-[160px] ">
                 <img src={letsTalk}/>
             </div>
-            <div ><img className='hidden sm:w-[400px] sm:h-[400px] top-[-60px] left-[640px]  rotate-[180deg] absolute' src={arrow}/></div>
+            <div ><img className='hidden sm:block cursor-pointer hover:rotate-[140deg] hover:duration-700 duration-300 sm:w-[400px] sm:h-[400px] top-[-60px] left-[640px]  rotate-[180deg] absolute' src={arrow}/></div>
         </div>
     );
 };

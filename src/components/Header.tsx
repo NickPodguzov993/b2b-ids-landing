@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div>
             <div
-                className="hidden sm:fixed sm:w-[1400px] sm:h-[88px]  sm:ml-[142px] sm:mt-4 sm:p-4 sm:bg-white sm:rounded-[30px] sm:z-10
+                className="hidden sm:fixed sm:w-[1400px] sm:h-[88px]  sm:ml-[152px] sm:mt-4 sm:p-4 sm:bg-white sm:rounded-[30px] sm:z-10
                  sm:shadow sm:justify-between sm:items-center sm:inline-flex">
                 <div className="justify-start items-center gap-3.5 flex">
                     <div className="flex-col justify-start items-start gap-[3px] inline-flex">

@@ -1,4 +1,4 @@
-import { useState} from "react";
+import {useEffect, useState} from "react";
 
 import ModuleText from "./ModuleText.tsx";
 
@@ -117,11 +117,25 @@ const OurBonuses = () => {
     ]
 
     const [index, setIndex] = useState<string>('01')
+    const [isClicked, setIsClicked] = useState(false)
+
+    useEffect(() => {
+
+        if (isClicked) {
+            setIsClicked(false)
+        }
+    }, [isClicked])
+
 
 
     const handleClick = (key: string) => {
         setIndex(key)
+        setIsClicked(true)
     }
+
+
+
+
 
     return (
         <div className="">
@@ -132,9 +146,14 @@ const OurBonuses = () => {
                     {superObj2.map((c) => {
 
                                 return (
+
+
                                     <div key={c.id}>
+
+
                                         <div onClick={() => handleClick(c.id)}
-                                             className="px-8 py-4 bg-white rounded-[20px] justify-center items-center gap-2.5 flex">
+                                             className={`px-8 py-4  rounded-[20px] justify-center items-center gap-2.5 flex 
+                                             ${index === c.id  ? "bg-main_green " : "bg-white "}`}>
                                             <button
                                                 className="text-black text-base font-normal font-['Arial']">{c.title1}
                                             </button>
@@ -148,6 +167,7 @@ const OurBonuses = () => {
                 </div>
             </div>
             <ModuleText config={superObj[index]} />
+
         </div>
 
 

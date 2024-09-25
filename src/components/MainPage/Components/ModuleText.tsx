@@ -7,7 +7,7 @@ export type ModuleTextType = {
 }
 
 
- const ModuleText = ({config}:ModuleTextType) => {
+ const ModuleText = ({config }:ModuleTextType) => {
     return (
         <div className="self-stretch h-[448px] flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch h-[165px] flex-col justify-start items-start gap-6 flex">

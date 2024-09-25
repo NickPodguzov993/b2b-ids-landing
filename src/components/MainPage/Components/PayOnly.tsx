@@ -7,7 +7,7 @@ const PayOnly = () => {
     return (
         <div>
             <div className='hidden sm:block'>
-                <div className="h-[190px] w-[1400px] ml-[132px] mb-[64px] justify-between items-end inline-flex">
+                <div className="h-[190px] w-[1400px] ml-[152px] mb-[64px] justify-between items-end inline-flex">
                     <div className="w-[712px]"><span
                         className="text-black text-[64px] font-light font-['Oswald'] uppercase">Pay only for the </span><span
                         className="text-black text-[64px] font-medium font-['Oswald'] uppercase">necessary functionality</span>
@@ -17,7 +17,7 @@ const PayOnly = () => {
                     </div>
                 </div>
 
-                <div className='flex ml-[132px] mt-8 '>
+                <div className='flex ml-[152px] mt-8 '>
                     <div
                         className={AnimationPayOnly.animationPayOnly}>
                         <div

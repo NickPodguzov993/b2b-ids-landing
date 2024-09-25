@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <div className='hidden sm:block'>
                 <div
-                    className="w-[1600px] h-[478px] px-[100px] py-8 bg-[#1b1b1b] rounded-tl-[20px] rounded-tr-[20px] flex-col justify-start items-start gap-8 inline-flex">
+                    className="w-[1600px] h-[478px] px-[100px] ml-[62px] py-8 bg-[#1b1b1b] rounded-tl-[20px] rounded-tr-[20px] flex-col justify-start items-start gap-8 inline-flex">
                     <div className="w-[186.17px] h-12 relative"><img src={logo}/></div>
                     <div className="self-stretch h-[334px] flex-col justify-start items-center gap-8 flex">
                         <div

@@ -34,13 +34,16 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        {!open ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">No,
-                            there is currently no mobile application developed. <br/> The recommended device
-                            resolution
-                            for
-                            comfortable use is 1920x1080.
-                        </div>}
+                        <div >
+                            {!open ? <span></span> : <div
+                                className="grow shrink  basis-0 text-black text-[24px] font-normal font-['Arial']">No,
+                                there is currently no mobile application developed. <br/> The recommended device
+                                resolution
+                                for
+                                comfortable use is 1920x1080.
+                            </div>}
+                        </div>
+
                     </div>
                     <div className=" ml-[372px]  flex-col justify-start items-start gap-6 inline-flex">
                         <div className="w-[800px] justify-start items-center gap-2.5 inline-flex">
