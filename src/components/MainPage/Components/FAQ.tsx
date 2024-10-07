@@ -36,7 +36,8 @@ const Faq = () => {
                         </div>
                         <div >
                             {!open ? <span></span> : <div
-                                className="grow shrink  basis-0 text-black text-[24px] font-normal font-['Arial']">No,
+                                className="grow shrink  basis-0 text-black text-[24px] font-normal font-['Arial']
+                                animate-fade-down animate-once animate-duration-600 animate-delay-300 animate-ease-linear animate-normal">No,
                                 there is currently no mobile application developed. <br/> The recommended device
                                 resolution
                                 for
@@ -61,7 +62,8 @@ const Faq = () => {
                             </div>
                         </div>
                         {!open2 ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">OS:
+                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']
+                            animate-fade-down animate-once animate-duration-700 animate-delay-300 animate-ease-linear animate-normal">OS:
                             Windows 7, 8, 8.1, 10, 11 or later versions; OS X <br/>
                             (Monterey, Big Sur, Catalina, Mojave, High Sierra) or later versions. <br/>
                             Recommended incoming/outgoing connection speed — at least 2 Mbps. <br/> Browsers: Google
@@ -84,7 +86,8 @@ const Faq = () => {
                             </div>
                         </div>
                         {!open3 ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">
+                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']
+                            animate-fade-down animate-once animate-duration-700 animate-delay-300 animate-ease-linear animate-normal">
                             System support is provided through software maintenance after <br/> its delivery to the
                             customer,
                             including troubleshooting identified <br/> during operation and planned system upgrades
@@ -107,7 +110,8 @@ const Faq = () => {
                             </div>
                         </div>
                         {!open4 ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">
+                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']
+                            animate-fade-down animate-once animate-duration-700 animate-delay-300 animate-ease-linear animate-normal">
                             The cost of the software is calculated individually <br/> based on needs, required modules,
                             and usage duration.
                         </div>}
@@ -127,7 +131,8 @@ const Faq = () => {
                             </div>
                         </div>
                         {!open5 ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">
+                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']
+                            animate-fade-down animate-once animate-duration-700 animate-delay-300 animate-ease-linear animate-normal">
                             To form and send an individual commercial proposal, please contact us via email.
                         </div>}
                     </div>
@@ -146,7 +151,8 @@ const Faq = () => {
                             </div>
                         </div>
                         {!open6 ? <span></span> : <div
-                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']">
+                            className="grow shrink basis-0 text-black text-[24px] font-normal font-['Arial']
+                            animate-fade-down animate-once animate-duration-700 animate-delay-300 animate-ease-linear animate-normal">
                             This is a SaaS product. Users do not need to install or configure <br/> the software
                             themselves. It is only necessary to go through <br/> the registration and authorization
                             process.

@@ -149,12 +149,12 @@ const About = () => {
                                      src={card1}/>
                             </div>
                             <div
-                                className="w-[300px] h-[350px] origin-top-left rotate-[1.76deg] flex-col justify-center items-center inline-flex">
+                                className="w-[300px] h-[350px] origin-top-left rotate-[1.76deg] ml-[-45px] flex-col justify-center items-center inline-flex">
                                 <img className="w-[300px] h-[350px] rounded-[20px]"
                                      src={card4}/>
                             </div>
                             <div
-                                className="w-[300px] h-[350px] origin-top-left -rotate-6 flex-col justify-center items-center inline-flex">
+                                className="w-[300px] h-[350px] origin-top-left -rotate-6 flex-col ml-[-60px] justify-center items-center inline-flex">
                                 <img className="w-[300px] h-[350px] rounded-[20px]"
                                      src={card2}/>
                             </div>
@@ -162,14 +162,14 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-[360px] h-[540px] px-4 flex-col justify-start items-start gap-8 inline-flex">
-                    <div className="block">
-                        <div className="self-stretch"><span
-                            className="text-black text-[40px] font-light font-['Oswald'] uppercase">No special qualifications are required to use the software.</span><span
+                    <div>
+                        <div><span className="text-black text-[40px] font-light font-['Oswald'] uppercase">No special qualifications are required to use the software.</span><span
                             className="text-black text-[40px] font-semibold font-['Oswald'] uppercase"> </span><span
-                            className="text-white bg-[#4cffa9] text-[40px] font-semibold font-['Oswald'] uppercase">Basic skills </span><span
-                            className="text-[40px] text-black  font-light font-['Oswald'] uppercase"> in working with a PC and a web browser </span><span
-                            className=" font-semibold text-[40px] text-[#4cffa9] font-['Oswald'] uppercase">are sufficient</span><span
-                            className="#4cffa940px] font-light font-['Oswald'] uppercase">.</span></div>
+                            className=" text-[40px] text-white rounded-lg font-semibold font-['Oswald'] bg-main_green uppercase">Basic </span>
+                            <span className="text-[40px] text-white rounded-lg font-semibold font-['Oswald'] bg-main_green uppercase">  skills </span><span
+                            className="text-black text-[40px] font-light font-['Oswald'] uppercase"> in working with a PC and a web browser </span><span
+                            className="text-[#4cffa9] text-[40px] font-semibold font-['Oswald'] uppercase">are sufficient</span><span
+                            className="text-[#4cffa9] text-[40px] font-light font-['Oswald'] uppercase">.</span></div>
                     </div>
 
 
